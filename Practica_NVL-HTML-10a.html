@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <h1 align="center">PRACTICA NVL-HTML-P10a</h1>
+  <body>
+    <h2 align="center">
+	<a name="arriba"></a>
+	Práctica sobre formularios
+	</h2></br>
+	<h2  align="center">
+			ENCUESTA DE OPINIÓN
+	</h2>
+
+	<form method="post" action="miservidor.php">
+			<div>
+				<label for=”CD”>Código postal:</label>
+				<input id=”CD” type=”text”>
+			</div>
+		</br>
+			<div>
+				<label for=”Nivel”>Nive de satisfaccion con el producto:</label>
+				<select id=”Nivel”>
+						<option value=”1”>1</option>
+						<option value=”2”>2</option>
+						<option value=”3”>3</option>
+						<option value=”4”>4</option>
+						<option value=”5”>5</option>
+					</select>
+			</div>
+		</br>
+			<div>
+				<label for=”Email”>Su email:</label>
+				<input id=”Email” type=”text”>
+			</div>
+		</br>
+			<div>
+					<label for=”PtsPositivos”>Puntos positivos del producto:</label>
+					<textarea id=”PtsPositivos”></textarea>
+			</div>
+		</br>
+			<div>
+					<label for=”PtsNegativos”>Puntos negativos del producto:</label>
+					<textarea id=”PtsNegativos”></textarea>
+		 </div>
+		</br>
+		 <div>
+				<label for=”valoración”>Valoración del producto:</label>
+				<select id=”valoración”>
+					<option value=”Excelente”>Excelente</option>
+					<option value=”Magnifico”>Magnifico</option>
+					<option value=”Muybueno”>Muy bueno</option>
+					<option value=”Bueno”>Bueno</option>
+					<option value=”Malo”>Malo</option>
+					<option value=”Pesimo”>Pesimo</option>
+				</select>
+		</div>
+	</br>
+	<p>Seleccione su valoracion del producto</p>
+		<div>
+				<input type="radio" id="excelente" name="valoracion" value=”excelente”>
+				<label for="excelente">Excelente</label>
+		</div>
+		<div>
+				<input type="radio" id="Magnifico" name="valoracion" value=”Magnifico”>
+				<label for="Magnifico">Magnifico</label>
+		</div>
+		<div>
+				<input type="radio" id="Muy bueno" name="valoracion" value=”Muybueno”>
+				<label for="excelente">Muy bueno</label>
+		</div>
+		<div>
+				<input type="radio" id="Bueno" name="valoracion" value=”Bueno”>
+				<label for="excelente">bueno</label>
+		</div>
+		<div>
+				<input type="radio" id="Pesimo" name="valoracion" value=”Pesimo”>
+				<label for="excelente">Pesimo</label>
+		</div>
+	</br>
+	<div>
+		    <button type="submit">Submit</button>
+	</div>
+	</form>
+</br>
+	<p align ="center" >
+	<a href="#arriba" title="Ir Arriba">Ir arriba</a>
+	</P>
+  </body>
+</html>
